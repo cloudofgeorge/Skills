@@ -83,6 +83,13 @@ This repo keeps the editable skill folders in one place. Local OpenClaw runtime 
   - Use when: writing, reviewing, or refactoring React/Next.js code for rendering, data-fetching, or bundle performance.
   - Do not use when: the code is not React/Next.js or the task is broader product docs/copy work.
 
+## Design skills
+- `skills/design/hallmark`
+  - What it is: Hallmark v2, a website design workflow with themes, references, assets, and design linting.
+  - Use when: building a new website or page, or explicitly requesting a Hallmark redesign or audit.
+  - Do not use when: modifying an existing design without an explicit Hallmark request or doing backend-only work.
+  - Source: [Nutlope/hallmark](https://github.com/Nutlope/hallmark), commit `65b5e4090ed95ee3dc2ff7db55b69aef8c5ff7b5`; MIT license preserved in the skill folder.
+
 ## Add or update a skill
 1. Copy the runtime-required contents into `skills/<skill-name>/`.
 2. Copy any runtime-critical skill dependencies this repo needs.
